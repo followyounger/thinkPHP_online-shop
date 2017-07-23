@@ -1,0 +1,15 @@
+[ 2017-07-18T08:20:45+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/%7B%20$smarty.const.ADMIN_CSS_URL%20%7Dmine.css
+ERR: 非法操作:{ $smarty.const.ADMIN_CSS_URL }mine.css
+
+[ 2017-07-18T08:21:03+08:00 ] 127.0.0.1 /shop/index.php/Admin//Goods/%7B%20$smarty.const.ADMIN_CSS_URL%20%7Dmine.css
+ERR: 非法操作:{ $smarty.const.ADMIN_CSS_URL }mine.css
+
+[ 2017-07-18T08:35:48+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/%7B%20$smarty.const.ADMIN_CSS_URL%20%7Dmine.css
+ERR: 非法操作:{ $smarty.const.ADMIN_CSS_URL }mine.css
+
+[ 2017-07-18T19:17:32+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/%7B%20$smarty.const.ADMIN_CSS_URL%20%7Dmine.css
+ERR: 非法操作:{ $smarty.const.ADMIN_CSS_URL }mine.css
+
+[ 2017-07-18T23:34:45+08:00 ] 127.0.0.1 /shop/index.php/Admin/User/register
+ERR: 无法加载控制器:User
+

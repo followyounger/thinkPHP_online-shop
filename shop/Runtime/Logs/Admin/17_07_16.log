@@ -1,0 +1,48 @@
+[ 2017-07-16T10:10:21+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/index
+ERR: 系统不支持: Think\Template\Driver\
+
+[ 2017-07-16T10:14:04+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/index
+ERR: 系统不支持: Think\Template\Driver\
+
+[ 2017-07-16T10:14:05+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/index
+ERR: 系统不支持: Think\Template\Driver\
+
+[ 2017-07-16T10:14:06+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/index
+ERR: 系统不支持: Think\Template\Driver\
+
+[ 2017-07-16T16:07:07+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/showlist
+ERR: Syntax Error in template "D:/phpStudy/WWW/tp3/shop/Admin/View\Goods\showlist.html"  on line 12 ".tr_color{background-color: #9F88FF}"  - Unexpected ": ", expected one of: "}" , " "
+
+[ 2017-07-16T16:20:16+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/showlist
+ERR: Syntax Error in template "D:/phpStudy/WWW/tp3/shop/Admin/View\Goods\showlist.html"  on line 12 ".tr_color{background-color: #9F88FF}"  - Unexpected ": ", expected one of: "}" , " "
+
+[ 2017-07-16T21:38:39+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/showlist
+ERR: Syntax Error in template "D:/phpStudy/WWW/tp3/shop/Admin/View\Goods\showlist.html"  on line 12 ".tr_color{background-color: #9F88FF}"  - Unexpected ": ", expected one of: "}" , " "
+
+[ 2017-07-16T22:11:33+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/%3C?php%20echo%20ADMIN_CSS_URL;%20?%3Emine.css
+ERR: 非法操作:
+
+[ 2017-07-16T22:11:33+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/%3C?php%20echo%20ADMIN_IMG_URL;%20?%3E20121018-174034-58977.jpg
+ERR: 非法操作:
+
+[ 2017-07-16T22:11:33+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/%3C?php%20echo%20ADMIN_IMG_URL;%20?%3E20121018-174248-28718.jpg
+ERR: 非法操作:
+
+[ 2017-07-16T22:11:33+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/%3C?php%20echo%20ADMIN_IMG_URL;%20?%3E20121018-174034-97960.jpg
+ERR: 非法操作:
+
+[ 2017-07-16T22:11:33+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/%3C?php%20echo%20ADMIN_IMG_URL;%20?%3E20121018-174248-87501.jpg
+ERR: 非法操作:
+
+[ 2017-07-16T22:11:33+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/%3C?php%20echo%20ADMIN_IMG_URL;%20?%3E20121018-174455-10118.jpg
+ERR: 非法操作:
+
+[ 2017-07-16T22:11:33+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/%3C?php%20echo%20ADMIN_IMG_URL;%20?%3E20121018-174346-54660.jpg
+ERR: 非法操作:
+
+[ 2017-07-16T22:11:33+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/%3C?php%20echo%20ADMIN_IMG_URL;%20?%3E20121018-174455-91962.jpg
+ERR: 非法操作:
+
+[ 2017-07-16T22:11:33+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/%3C?php%20echo%20ADMIN_IMG_URL;%20?%3E20121018-174346-31424.jpg
+ERR: 非法操作:
+

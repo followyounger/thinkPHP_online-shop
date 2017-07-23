@@ -1,0 +1,23 @@
+[ 2017-07-20T10:54:50+08:00 ] 127.0.0.1 /shop/index.php/Admin//Goods/%7B%20$smarty.const.ADMIN_CSS_URL%20%7Dmine.css
+ERR: 非法操作:{ $smarty.const.ADMIN_CSS_URL }mine.css
+
+[ 2017-07-20T10:55:03+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/%7B%20$smarty.const.ADMIN_CSS_URL%20%7Dmine.css
+ERR: 非法操作:{ $smarty.const.ADMIN_CSS_URL }mine.css
+
+[ 2017-07-20T10:57:24+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/%7B%20$smarty.const.ADMIN_CSS_URL%20%7Dmine.css
+ERR: 非法操作:{ $smarty.const.ADMIN_CSS_URL }mine.css
+
+[ 2017-07-20T10:57:24+08:00 ] 127.0.0.1 /shop/index.php/Admin//Goods/%7B%20$smarty.const.ADMIN_CSS_URL%20%7Dmine.css
+ERR: 非法操作:{ $smarty.const.ADMIN_CSS_URL }mine.css
+
+[ 2017-07-20T19:57:42+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/left.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `sw_auth` WHERE ( auth_level=0 and auth_id in () ) 
+
+[ 2017-07-20T19:58:43+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/left.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `sw_auth` WHERE ( auth_level=0 and auth_id in () ) 
+
+[ 2017-07-20T20:08:53+08:00 ] 127.0.0.1 /shop/index.php/Admin/Index/left.html
+ERR: Syntax Error in template "D:/phpStudy/WWW/tp3/shop/Admin/View\Index\left.html"  on line 49 "{/foreahc}" unknown tag "foreahcclose"
+

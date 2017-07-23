@@ -1,0 +1,15 @@
+[ 2017-07-23T16:59:52+08:00 ] 127.0.0.1 /shop/index.php/Admin/Manager/showlist
+ERR: 非法操作:showlist
+
+[ 2017-07-23T16:59:53+08:00 ] 127.0.0.1 /shop/index.php/Admin/Manager/showlist
+ERR: 非法操作:showlist
+
+[ 2017-07-23T17:00:49+08:00 ] 127.0.0.1 /shop/index.php/Admin/Goods/category
+ERR: 非法操作:category
+
+[ 2017-07-23T17:01:30+08:00 ] 127.0.0.1 /shop/index.php/Admin/User/showlist
+ERR: 无法加载控制器:User
+
+[ 2017-07-23T18:05:00+08:00 ] 127.0.0.1 /shop/index.php/Admin/Manager/showlist
+ERR: 非法操作:showlist
+

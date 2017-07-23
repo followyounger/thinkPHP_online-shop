@@ -1,0 +1,102 @@
+[ 2017-07-16T10:07:11+08:00 ] 127.0.0.1 /shop/index.php/Home/User/login
+ERR: 系统不支持: Think\Template\Driver\
+
+[ 2017-07-16T10:07:31+08:00 ] 127.0.0.1 /shop/
+ERR: 系统不支持: Think\Template\Driver\
+
+[ 2017-07-16T10:14:11+08:00 ] 127.0.0.1 /shop/
+ERR: 系统不支持: Think\Template\Driver\
+
+[ 2017-07-16T10:17:27+08:00 ] 127.0.0.1 /shop/
+ERR: 系统不支持: Think\Template\Driver\
+
+[ 2017-07-16T10:17:28+08:00 ] 127.0.0.1 /shop/
+ERR: 系统不支持: Think\Template\Driver\
+
+[ 2017-07-16T10:17:29+08:00 ] 127.0.0.1 /shop/
+ERR: 系统不支持: Think\Template\Driver\
+
+[ 2017-07-16T10:17:29+08:00 ] 127.0.0.1 /shop/
+ERR: 系统不支持: Think\Template\Driver\
+
+[ 2017-07-16T10:17:29+08:00 ] 127.0.0.1 /shop/
+ERR: 系统不支持: Think\Template\Driver\
+
+[ 2017-07-16T10:17:30+08:00 ] 127.0.0.1 /shop/
+ERR: 系统不支持: Think\Template\Driver\
+
+[ 2017-07-16T10:17:30+08:00 ] 127.0.0.1 /shop/
+ERR: 系统不支持: Think\Template\Driver\
+
+[ 2017-07-16T10:17:30+08:00 ] 127.0.0.1 /shop/
+ERR: 系统不支持: Think\Template\Driver\
+
+[ 2017-07-16T10:17:30+08:00 ] 127.0.0.1 /shop/
+ERR: 系统不支持: Think\Template\Driver\
+
+[ 2017-07-16T10:17:30+08:00 ] 127.0.0.1 /shop/
+ERR: 系统不支持: Think\Template\Driver\
+
+[ 2017-07-16T10:17:30+08:00 ] 127.0.0.1 /shop/
+ERR: 系统不支持: Think\Template\Driver\
+
+[ 2017-07-16T10:17:31+08:00 ] 127.0.0.1 /shop/
+ERR: 系统不支持: Think\Template\Driver\
+
+[ 2017-07-16T10:17:31+08:00 ] 127.0.0.1 /shop/
+ERR: 系统不支持: Think\Template\Driver\
+
+[ 2017-07-16T10:17:31+08:00 ] 127.0.0.1 /shop/
+ERR: 系统不支持: Think\Template\Driver\
+
+[ 2017-07-16T10:17:31+08:00 ] 127.0.0.1 /shop/
+ERR: 系统不支持: Think\Template\Driver\
+
+[ 2017-07-16T10:17:31+08:00 ] 127.0.0.1 /shop/
+ERR: 系统不支持: Think\Template\Driver\
+
+[ 2017-07-16T10:17:31+08:00 ] 127.0.0.1 /shop/
+ERR: 系统不支持: Think\Template\Driver\
+
+[ 2017-07-16T10:17:32+08:00 ] 127.0.0.1 /shop/
+ERR: 系统不支持: Think\Template\Driver\
+
+[ 2017-07-16T10:17:32+08:00 ] 127.0.0.1 /shop/
+ERR: 系统不支持: Think\Template\Driver\
+
+[ 2017-07-16T10:34:00+08:00 ] 127.0.0.1 /shop/
+ERR: 系统不支持: Think\Template\Driver\
+
+[ 2017-07-16T10:34:16+08:00 ] 127.0.0.1 /shop/index.php
+ERR: 系统不支持: Think\Template\Driver\
+
+[ 2017-07-16T10:39:40+08:00 ] 127.0.0.1 /shop/index.php
+ERR: 系统不支持: Think\Template\Driver\
+
+[ 2017-07-16T10:39:44+08:00 ] 127.0.0.1 /shop/index.php
+ERR: 系统不支持: Think\Template\Driver\
+
+[ 2017-07-16T10:39:45+08:00 ] 127.0.0.1 /shop/index.php
+ERR: 系统不支持: Think\Template\Driver\
+
+[ 2017-07-16T10:39:51+08:00 ] 127.0.0.1 /shop/
+ERR: 系统不支持: Think\Template\Driver\
+
+[ 2017-07-16T10:40:02+08:00 ] 127.0.0.1 /shop/index.php/Home/User/login
+ERR: 系统不支持: Think\Template\Driver\
+
+[ 2017-07-16T11:10:30+08:00 ] 127.0.0.1 /shop/index.php/Home/User/%7B$smarty.const.CSS_URL%7Dstyle.css
+ERR: 非法操作:{$smarty.const.CSS_URL}style.css
+
+[ 2017-07-16T11:13:47+08:00 ] 127.0.0.1 /shop/index.php/Home/User/%7B$smarty.const.CSS_URL%7Dstyle.css
+ERR: 非法操作:{$smarty.const.CSS_URL}style.css
+
+[ 2017-07-16T11:13:48+08:00 ] 127.0.0.1 /shop/index.php/Home/User/%7B$smarty.const.CSS_URL%7Dstyle.css
+ERR: 非法操作:{$smarty.const.CSS_URL}style.css
+
+[ 2017-07-16T11:13:48+08:00 ] 127.0.0.1 /shop/index.php/Home/User/%7B$smarty.const.CSS_URL%7Dstyle.css
+ERR: 非法操作:{$smarty.const.CSS_URL}style.css
+
+[ 2017-07-16T16:03:10+08:00 ] 127.0.0.1 /shop/index.php/Home/User
+ERR: 非法操作:index
+
