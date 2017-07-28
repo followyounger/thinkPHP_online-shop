@@ -6,6 +6,23 @@ class UserController extends Controller
 {
 
     function login(){
+         if (!empty($_POST)) {
+            $usrpwd = array(
+            'mg_name'=>$_POST['username'],
+            'mg_pwd'=>$_POST['password'],
+                    );
+            $info = D('User')->where($usrpwd)->find();
+            if ($info) {
+                    $this->redirect('Index/index');
+                } else {
+                    # code...
+                    echo "用户名或密码错误";
+                }
+
+            } else {
+                # code...
+                echo "验证失败";
+            }
         $this->display();
     }
     function register(){
@@ -30,6 +47,16 @@ class UserController extends Controller
 
         }
         $this->display();
+    }
+        function checkNM($name){
+        $exists = D('User')->where("username='$name'")->find();
+        if ($exists==null) {
+            # code...
+            echo "<span style='color:green;'>恭喜，名字可以使用</span>";
+        }else{
+            echo "<span style='color:red;'>此名字已被占用</span>";
+        }
+        exit;
     }
 
 }

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.6, created on 2017-07-16 11:10:30
+<?php /* Smarty version Smarty-3.1.6, created on 2017-07-27 14:04:51
          compiled from "D:/phpStudy/WWW/tp3/shop/Home/View\User\login.html" */ ?>
 <?php /*%%SmartyHeaderCode:16632596ad926bc1405-44438874%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e83c6136840cee35a1caf4e48d49550d063263c9' => 
     array (
       0 => 'D:/phpStudy/WWW/tp3/shop/Home/View\\User\\login.html',
-      1 => 1500116033,
+      1 => 1501135475,
       2 => 'file',
     ),
   ),
@@ -15,9 +15,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.6',
   'unifunc' => 'content_596ad926c8492',
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_596ad926c8492')) {function content_596ad926c8492($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -29,13 +29,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
         <title>用户中心_YONGDA商城 - Powered by YongDa</title>
 
-        <link href="{$smarty.const.CSS_URL}style.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo @CSS_URL;?>
+style.css" rel="stylesheet" type="text/css" />
 
     </head>
     <body>
         <div class="block clearfix" style="position: relative; height: 98px;">
             <a href="#" name="top">
-                <img class="logo" src="{$smarty.const.IMG_URL}logo.gif">
+                <img class="logo" src="<?php echo @IMG_URL;?>
+logo.gif">
             </a>
 
 
@@ -77,7 +79,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
             <form id="searchForm" method="get" >
                 <input name="keywords" id="keyword" type="text" />
-                <input name="imageField" value=" " class="go" style="cursor: pointer; background: url('{$smarty.const.IMG_URL}sousuo.gif') no-repeat scroll 0% 0% transparent; width: 39px; height: 20px; border: medium none; float: left; margin-right: 15px; vertical-align: middle;" type="submit">
+                <input name="imageField" value=" " class="go" style="cursor: pointer; background: url('<?php echo @IMG_URL;?>
+sousuo.gif') no-repeat scroll 0% 0% transparent; width: 39px; height: 20px; border: medium none; float: left; margin-right: 15px; vertical-align: middle;" type="submit">
 
             </form>
         </div>
@@ -85,16 +88,19 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
         <div class="header_bg_b">
             <div class="f_l" style="padding-left: 10px;">
-                <img src="{$smarty.const.IMG_URL}biao6.gif">
+                <img src="<?php echo @IMG_URL;?>
+biao6.gif">
                     北京市区，现在下单(截至次日00:30已出库)，<b>明天上午(9-14点)</b>送达 <b>免运费火热进行中！</b>
             </div>
 
             <div class="f_r" style="padding-right: 10px;">
-                <img style="vertical-align: middle;" src="{$smarty.const.IMG_URL}biao3.gif">
+                <img style="vertical-align: middle;" src="<?php echo @IMG_URL;?>
+biao3.gif">
 
                     <span class="cart" id="ECS_CARTINFO">
                         <a href="#" title="查看购物车">您的购物车中有 0 件商品，总计金额 ￥0.00元。</a></span>
-                    <a href="#"><img style="vertical-align: middle;" src="{$smarty.const.IMG_URL}biao7.gif"></a>
+                    <a href="#"><img style="vertical-align: middle;" src="<?php echo @IMG_URL;?>
+biao7.gif"></a>
             </div>
         </div>
 
@@ -115,13 +121,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                     <form name="formLogin" action="#" method="post">
                         <table align="left" border="0" cellpadding="3" cellspacing="5" width="100%">
                             <tbody><tr>
-                                    <td align="right" width="15%">用户名</td>
-                                    <td width="85%"><input name="username" size="25" class="inputBg" type="text" /></td>
-                                </tr>
+        <td align="right" width="15%">用户名</td>
+         <td width="85%"><input name="username" size="25" class="inputBg" type="text" /></td>
+                </tr>
                                 <tr>
-                                    <td align="right">密码</td>
+         <td align="right">密码</td>
                                     <td>
-                                        <input name="password" size="15" class="inputBg" type="password" />
+                <input name="password" size="15" class="inputBg" type="password" />
                                     </td>
                                 </tr>
                                 <tr>
@@ -152,7 +158,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                         2. 收藏您关注的商品<br />
                         3. 享受会员积分制度<br />
                         4. 订阅本店商品信息  <br />
-                        <a href="#"><img src="{$smarty.const.IMG_URL}bnt_ur_reg.gif"></a>
+                        <a href="<?php echo @__CONTROLLER__;?>
+/register.html"><img src="<?php echo @IMG_URL;?>
+bnt_ur_reg.gif"></a>
                     </div>
                 </div>
             </div>
@@ -160,7 +168,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             </div>
             <div class="blank"></div>
             <div class="block">
-                <a href="#" target="_blank" title="YONGDA商城"><img alt="YONGDA商城" src="{$smarty.const.IMG_URL}di.jpg"></a>
+                <a href="#" target="_blank" title="YONGDA商城"><img alt="YONGDA商城" src="<?php echo @IMG_URL;?>
+di.jpg"></a>
 
                 <div class="blank"></div>
             </div>
@@ -218,7 +227,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <div id="bottomNav" class="box block">
                 <div class="box_1">
                     <div class="links clearfix">
-                        <a href="#" target="_blank" title="YONGDA商城"><img src="{$smarty.const.IMG_URL}logo.gif" alt="YONGDA商城" border="0"></a>
+                        <a href="#" target="_blank" title="YONGDA商城"><img src="<?php echo @IMG_URL;?>
+logo.gif" alt="YONGDA商城" border="0"></a>
 
 
                         [<a href="#" target="_blank" title="">yongda商城</a>]

@@ -13,7 +13,7 @@ class UserModel extends Model
         array('username','require','用户不能为空'),
         array('password','require','密码不能为空'),
         array('password2','require','密码不能为空'),
-        array('password2','password','与密码保持一致','0','confirm'),
+        array('password2','password','与密码保持一致',0,'confirm'),
         array('user_email','email','邮箱格式不正确',2),
         array('user_qq','number','qq号码为数字信息'),
         array('user_qq','5,12','qq号码为数字信息',0,'length'),

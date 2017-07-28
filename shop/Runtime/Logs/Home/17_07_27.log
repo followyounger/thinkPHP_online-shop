@@ -1,0 +1,6 @@
+[ 2017-07-27T13:24:21+08:00 ] 127.0.0.1 /shop/index.php/Home/User/%7B$smarty.const.CSS_URL%7Dstyle.css
+ERR: 非法操作:{$smarty.const.CSS_URL}style.css
+
+[ 2017-07-27T13:25:32+08:00 ] 127.0.0.1 /shop/index.php/Home/User/%7B%20$smarty.const.CSS_URL%20%7Dstyle.css
+ERR: 非法操作:{ $smarty.const.CSS_URL }style.css
+
