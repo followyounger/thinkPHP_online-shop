@@ -11,7 +11,7 @@ class AuthController extends AdminController
         $this->display();
     }
     function addlist(){
-        //有亮哥逻辑，一个是展示，一个是收集
+        //有两个逻辑，一个是展示，一个是收集
         $auth = new \Model\AuthModel();
         if (!empty($_POST)) {
             # code...

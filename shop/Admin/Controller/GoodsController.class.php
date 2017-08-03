@@ -88,6 +88,7 @@ class GoodsController extends AdminController
             }
 
             $z = $goods->add($_POST);
+
             if ($z) {
                 $this->redirect('showlist',array(),2,'添加商品成功！');
             } else {
@@ -117,7 +118,7 @@ class GoodsController extends AdminController
            //     $this->redirect('updatelist',array('$goods_id'=>$goods_id),2,'修改商品失败！');
            // }
         }else{
-          $info = D('Goods')->find($goods_id);
+          $info = $goods->find($goods_id);
         //dump($info);
         $this->assign('info',$info);
         $this->display();
